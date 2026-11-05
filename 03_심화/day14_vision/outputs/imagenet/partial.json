@@ -1,0 +1,19 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "valid_loss": 2.2450936234640218e-06,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    {
+      "epoch": 2,
+      "valid_loss": 3.125925808768039e-07,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    }
+  ],
+  "source": "ImageNet",
+  "strategy": "partial",
+  "test_used": false
+}
