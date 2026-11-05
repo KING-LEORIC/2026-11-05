@@ -26,10 +26,10 @@ from models import build_model,configure
 
 # 각 실험 결과를 저장할 리스트
 rows=[]
+"""BatchNorm을 고정(freeze)했을 때와 학습 중 업데이트했을 때 성능과 running mean 변화량(bn_shift)을 비교"""
 # BatchNorm 고정/비고정 두 가지 정책 비교
 # - True : BatchNorm 통계 고정
 # - False : BatchNorm 통계 갱신
-"""BatchNorm을 고정(freeze)했을 때와 학습 중 업데이트했을 때 성능과 running mean 변화량(bn_shift)을 비교"""
 for frozen in [True,False]:
     # TODO D02: freeze_bn에 현재 frozen을 전달하세요.
     # BEGIN D02
